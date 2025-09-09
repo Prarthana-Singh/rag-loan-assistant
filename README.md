@@ -1,8 +1,38 @@
 # 🤖 RAG Q&A Chatbot for Loan Dataset
 
-This project implements a Retrieval-Augmented Generation (RAG) chatbot that intelligently answers questions based on a structured loan dataset (`Training.csv`). It combines semantic search using FAISS with a lightweight text generation model from Hugging Face (`FLAN-T5`).
+This project implements a **Retrieval-Augmented Generation (RAG) chatbot** that answers questions intelligently using a structured loan dataset (`Training.csv`). 
+
+### Key Features
+- **FAISS** for semantic search to quickly retrieve relevant information from the dataset.
+- **FLAN-T5** (Hugging Face) for natural language text generation.
+- Handles **loan-related queries** with accurate and context-aware answers.
+- Combines **retrieval-based reasoning** with **generative AI**, suitable for:
+  - Financial data insights
+  - Customer support automation
+  - Educational purposes
 
 ---
+
+### 🎥 Demo
+![RAG Chatbot Demo](https://github.com/user-attachments/assets/5a0a3e02-f3bb-48c3-b8cc-f8d1a999f02c)
+
+---
+
+### 🖼 Demo Screenshots
+<img width="1919" height="901" alt="Screenshot 1" src="https://github.com/user-attachments/assets/cca541a9-3eb0-477b-8393-35db56401802" />
+
+<img width="1919" height="927" alt="Screenshot 2" src="https://github.com/user-attachments/assets/e5fb925a-2e9a-4f72-80e1-e94c90d943d5" />
+
+<img width="1919" height="936" alt="Screenshot 3" src="https://github.com/user-attachments/assets/9ebd95d0-409f-40fc-b88a-9e00a487043e" />
+
+---
+
+### ⚡ Optional Sections to Add (to make it portfolio-ready)
+1. **Installation / Setup**  
+2. **Usage Instructions**  
+3. **Tech Stack**  
+4. **Future Improvements**  
+
 
 ## 🔧 Installation
 
