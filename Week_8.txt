@@ -1,0 +1,67 @@
+What is Generative AI
+Foundation Models
+Understanding LLMs
+Prompt Engineering
+LangChain Introduction
+Agents and Chains
+What is RAG
+Implementing RAG with LangChain
+Fine-tuning LLMs
+Vector Databases
+
+
+
+
+
+
+
+
+
+-- About Dataset
+
+
+
+
+
+Context for Loan Approval Prediction Chatbot
+
+
+
+1. Dataset Structure and Details
+Objective: The primary goal of this dataset is to build a model that predicts whether a person will get a loan based on certain input variables.
+Data Columns (Features):
+Loan_ID: A unique identifier for each loan application.
+Gender: The applicant's gender (Male/Female).
+Married: The applicant's marital status (Yes/No).
+Dependents: The number of individuals dependent on the applicant (0, 1, 2, 3+).
+Education: The applicant's education level (Graduate/Not Graduate).
+Self_Employed: Whether the applicant is self-employed (Yes/No).
+ApplicantIncome: The applicant's monthly or annual income.
+CoapplicantIncome: The co-applicant's income.
+LoanAmount: The amount of the loan requested by the applicant.
+Loan_Amount_Term: The loan repayment term in months (typically 360 months or 30 years).
+Credit_History: The applicant's past credit history (1.0 = Yes, 0.0 = No).
+Property_Area: The location of the property (Urban/Semiurban/Rural).
+Loan_Status: Whether the loan was approved or not (Y/N) - this is the target variable to be predicted.
+
+
+2. Key Insights
+Credit History: Applicants with a good credit history (i.e., they have repaid previous debts on time) have the highest probability of getting their loan approved. This is the most significant predictive factor.
+Income Impact: Higher-income applicants and those with a co-applicant who also has an income are more likely to have their loans approved. Higher income generally correlates with a better chance of approval.
+Married vs. Unmarried: Married applicants often have a higher loan approval rate than unmarried applicants.
+Education Level: Graduates tend to have a higher loan approval rate compared to non-graduates.
+Property Location: According to the dataset, applicants from semi-urban areas have the highest loan approval rate, followed by urban and then rural areas.
+Loan Amount and Term: Smaller loan amounts and shorter loan terms may have a higher chance of approval. The most common loan term requested is 360 months (30 years).
+
+
+
+
+3. Potential Questions and Answers for the Chatbot
+User's Question: What is the most important factor for loan approval?
+Chatbot's Potential Answer: The most significant factor for loan approval is the applicant's credit history. Applicants with a good credit history have the highest chance of getting their loan approved.
+User's Question: Does my income affect loan approval?
+Chatbot's Potential Answer: Yes, income affects loan approval. Applicants with higher incomes and those with a co-applicant who also has an income are more likely to have their loans approved.
+User's Question: Does the property location matter?
+Chatbot's Potential Answer: Yes, the property location matters. According to the dataset, applicants from semi-urban areas have a higher loan approval rate than those from urban and rural areas.
+User's Question: If I am self-employed, is it difficult for me to get a loan?
+Chatbot's Potential Answer: Most applicants in the dataset are not self-employed. While not a sole determining factor, self-employed applicants may be subject to closer scrutiny by banks during the approval process.
