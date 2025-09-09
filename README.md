@@ -19,11 +19,10 @@ This project implements a **Retrieval-Augmented Generation (RAG) chatbot** that 
 ---
 
 ### 🖼 Demo Screenshots
-<img width="1919" height="901" alt="Screenshot 1" src="https://github.com/user-attachments/assets/cca541a9-3eb0-477b-8393-35db56401802" />
 
-<img width="1919" height="927" alt="Screenshot 2" src="https://github.com/user-attachments/assets/e5fb925a-2e9a-4f72-80e1-e94c90d943d5" />
-
-<img width="1919" height="936" alt="Screenshot 3" src="https://github.com/user-attachments/assets/9ebd95d0-409f-40fc-b88a-9e00a487043e" />
+| Screenshot 1 | Screenshot 2 | Screenshot 3 |
+|--------------|--------------|--------------|
+| ![Screenshot 1](https://github.com/user-attachments/assets/cca541a9-3eb0-477b-8393-35db56401802) | ![Screenshot 2](https://github.com/user-attachments/assets/e5fb925a-2e9a-4f72-80e1-e94c90d943d5) | ![Screenshot 3](https://github.com/user-attachments/assets/9ebd95d0-409f-40fc-b88a-9e00a487043e) |
 
 ---
 
